@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: simple-node-app
-          image: preciousokpor/simple-node-app:latest
+          image: preciousokpor/simple-node-app:argocd
           # imagePullPolicy: Never
           ports:
             - containerPort: 3000
